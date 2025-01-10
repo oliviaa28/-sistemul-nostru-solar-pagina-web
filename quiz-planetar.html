@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+		<title>QUIZ PLANETAR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Quiz Planetar</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Meniul principal</a></li>
+						
+						
+					</ul>
+				</nav>
+			</header>
+
+	
+</head>
+<body>
+
+
+
+<form id="formularQuizPlanete" >
+     <!-- Întrebarea 1 -->
+     <div class="features">
+       <section>
+     <div class="question">
+        <p>       1. Care planetă are o culoare albastră distinctivă și este cunoscută pentru vânturile sale puternice?</p>
+        <label><input type="radio" name="q1" value="Marte"><span>Marte</span> </label>
+        <label><input type="radio" name="q1" value="Venus"> <span>Venus</span></label>
+        <label><input type="radio" name="q1" value="Jupiter"> <span>Jupiter</span></label>
+        <label><input type="radio" name="q1" value="Neptun">  <span>Neptun</span>  </label>
+    </div>
+</section>
+<section>
+    <!-- Întrebarea 2 -->
+    <div class="question">
+        <p>2. Care planetă este cunoscută sub numele de "Planeta Pitică"?</p>
+        <label><input type="radio" name="q2" value="Pluto"> <span>Pluto</span></label>
+        <label><input type="radio" name="q2" value="Pământ"> <span>Pământ</span></label>
+        <label><input type="radio" name="q2" value="Saturn"> <span>Saturn</span></label>
+        <label><input type="radio" name="q2" value="Jupiter"> <span>Jupiter</span></label>
+    </div>
+   
+</section>
+<section>
+    <!-- Întrebarea 3 -->
+    <div class="question">
+        <p>3. Care planetă are un sistem de inele spectaculos?</p>
+        <label><input type="radio" name="q3" value="Mars"><span>Marte</span> </label>
+        <label><input type="radio" name="q3" value="Venus"> <span>Venus</span></label>
+        <label><input type="radio" name="q3" value="Jupiter"> <span>Jupiter</span></label>
+        <label><input type="radio" name="q3" value="Saturn"><span>Saturn</span> </label>
+    </div>
+</section>
+<section>
+    <!-- Întrebarea 4 -->
+    <div class="question">
+        <p>4. Care planetă are o zi mai lungă decât un an?</p>
+        <label><input type="radio" name="q4" value="Venus"> <span>Venus</span></label>
+        <label><input type="radio" name="q4" value="Mercur"> <span>Mercur</span> </label>
+        <label><input type="radio" name="q4" value="Jupiter"> <span>Jupiter</span></label>
+        <label><input type="radio" name="q4" value="Pământ"> <span>Pământ</span></label>
+    </div>
+</section>
+<section>
+    <!-- Întrebarea 5 -->
+    <div class="question">
+        <p>5. Care planetă este considerată "Sora Pământului" datorită similarităților sale?</p>
+        <label><input type="radio" name="q5" value="Marte"> <span>Marte</span> </label>
+        <label><input type="radio" name="q5" value="Pământ">  <span>Pământ</span> </label>
+        <label><input type="radio" name="q5" value="Neptun"> <span>Neptun</span></label>
+        <label><input type="radio" name="q5" value="Venus"> <span>Venus</span></label>
+    </div>
+</section>
+<section>
+    <!-- Întrebarea 6 -->
+    <div class="question">
+        <p>6. Care planetă are un nume asociat zeului roman al vitezei?</p>
+        <label><input type="radio" name="q6" value="Marte" > <span>Marte</span> </label>
+        <label><input type="radio" name="q6" value="Mercur"> <span>Mercur</span> </label>
+        <label><input type="radio" name="q6" value="Pământ"><span>Pământ</span> </label>
+        <label><input type="radio" name="q6" value="Neptun"> <span>Neptun</span> </label>
+    </div>
+</section>
+<section>
+<div class="question">
+	
+		 <p>7. Care planetă are o atmosferă densă și este cunoscută pentru vremea sa neobișnuită?</p>
+		<label>
+			<input type="radio" name="q7" value="Venus"/><span>Venus</span></label>
+		<label>
+			<input type="radio" name="q7" value="Mercur"/>
+			<span>Mercur</span>
+		</label>
+		<label>
+			<input type="radio" name="q7" value="Jupiter"/>
+			<span>Jupiter</span>
+		</label>
+		<label>
+			<input type="radio" name="q7" value="Uranus"/>
+			<span>Uranus</span>
+		</label>
+	
+</div>
+</section>
+<section>
+
+
+    <input type="button" value="Calculează punctajul" onclick="calculeazaScor()" align="middle">
+
+    <button onclick="reseteazaRezultat()">Resetează quiz-ul</button>
+ <a href="#" class="image"></a><img style="float: right" width="700" height="500" src="images/cute-little-planet.png" alt=""  >
+</section>
+
+<hr> 
+</form>
+<hr>
+
+<section>
+    <div id="rezultat"></div>
+    
+    <script>
+     
+            function calculeazaScor() {
+                const raspunsuriCorecte = ['Neptun', 'Pluto','Saturn','Venus','Venus','Mercur','Venus'];
+                const containerRezultat = document.getElementById('rezultat');
+               
+                    let scor = 0;
+                let raspunsuriCorecteAfisate = '';
+    
+                for (let i = 1; i <= 7; i++) {
+                    const raspunsSelectat = document.querySelector(`input[name="q${i}"]:checked`);
+    
+                    if (raspunsSelectat) {
+                        const raspunsUtilizator = raspunsSelectat.value;
+    
+                        if (raspunsUtilizator === raspunsuriCorecte[i - 1]) {
+                            scor++;
+                        } else {
+                            const raspunsCorect = raspunsuriCorecte[i - 1];
+                            raspunsuriCorecteAfisate += `Întrebarea ${i}: Răspunsul corect este ${raspunsCorect}.<br>`;
+                        }
+                    }
+                }
+    
+                containerRezultat.innerHTML = `<p >Scorul tău este: ${scor} din 7</p>`;
+                if (raspunsuriCorecteAfisate !== '') {
+                    containerRezultat.innerHTML += `<p>Răspunsurile corecte pentru întrebările la care a-ți răspuns greșit:<br>${raspunsuriCorecteAfisate}</p>`;
+                }
+            }
+    
+            function reseteazaRezultat() {
+                const containerRezultat = document.getElementById('rezultat');
+                containerRezultat.innerHTML = ''; // Șterge conținutul rezultatului pentru a-l reseta
+            }
+        </script>
+    </section>
+
+		
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+    
+    <style>
+        *,
+       *:after,
+       *:before {
+         box-sizing: border-box;
+       }
+       
+       
+       
+       
+       label {
+         display: flex;
+         cursor: pointer;
+         font-weight: 500;
+         position: relative;
+         overflow: hidden;
+         margin-bottom: 0.375em;
+         /* Accessible outline */
+         /* Remove comment to use */
+         /*
+             &:focus-within {
+                     outline: .125em solid $primary-color;
+             }
+         */
+       }
+       label input {
+         position: absolute;
+         left: -9999px;
+       }
+       label input:checked + span {
+         background-color: #745f94;
+       }
+       label input:checked + span:before {
+         box-shadow: inset 0 0 0 0.4375em #312450;
+       }
+       label span {
+         display: flex;
+         align-items: center;
+         padding: 0.375em 0.75em 0.375em 0.375em;
+         border-radius: 99em;
+         transition: 0.25s ease;
+       }
+       label span:hover {
+         background-color: #d6d6e5;
+       }
+       label span:before {
+         display: flex;
+         flex-shrink: 0;
+         content: "";
+         background-color: #fff;
+         width: 1.5em;
+         height: 1.5em;
+         border-radius: 50%;
+         margin-right: 0.375em;
+         transition: 0.25s ease;
+         box-shadow: inset 0 0 0 0.125em #312450;
+       }
+       
+       .container {
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 20px;
+       }
+       </style>
+</html>
