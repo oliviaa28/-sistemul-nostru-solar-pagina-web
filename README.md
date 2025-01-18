@@ -48,7 +48,10 @@ Proiectul este dezvoltat folosind:
   - Quiz planetar pentru consolidarea cunoștințelor.
 
 ---
+##  Screenshots
 
+
+---
 ## 🚀 Experiență Interactivă
 - **Explorați sistemul solar**: Vizualizare interactivă a configurației planetare.
 - **Învățați prin joacă**: Testați-vă cunoștințele cu un quiz planetar captivant.
