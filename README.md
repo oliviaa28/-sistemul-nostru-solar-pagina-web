@@ -49,6 +49,27 @@ Proiectul este dezvoltat folosind:
 
 ---
 ##  Screenshots
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="![WhatsApp Image 2025-01-18 at 11 14 49_f35d9eac](https://github.com/user-attachments/assets/b30f6861-12cb-4a33-a08b-1a1329ee6a29)
+" alt="Image 1" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image2.jpg" alt="Image 2" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image3.jpg" alt="Image 3" style="width: 30%; margin-bottom: 10px;">
+  
+  <img src="path/to/image4.jpg" alt="Image 4" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image5.jpg" alt="Image 5" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image6.jpg" alt="Image 6" style="width: 30%; margin-bottom: 10px;">
+  
+  <img src="path/to/image7.jpg" alt="Image 7" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image8.jpg" alt="Image 8" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image9.jpg" alt="Image 9" style="width: 30%; margin-bottom: 10px;">
+  
+  <img src="path/to/image10.jpg" alt="Image 10" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image11.jpg" alt="Image 11" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image12.jpg" alt="Image 12" style="width: 30%; margin-bottom: 10px;">
+  
+  <img src="path/to/image13.jpg" alt="Image 13" style="width: 30%; margin-bottom: 10px;">
+  <img src="path/to/image14.jpg" alt="Image 14" style="width: 30%; margin-bottom: 10px;">
+</div>
 
 
 ---
