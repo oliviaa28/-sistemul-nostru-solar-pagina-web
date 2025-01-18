@@ -58,7 +58,7 @@ Proiectul este dezvoltat folosind:
 ## 🎨 Design și Tehnologie
 - **HTML**: Structură clară și organizată.
 - **CSS**: Culori tematice și animații atractive.
-- **JavaScript *: Dinamism și interactivitate.
+- **JavaScript**: Dinamism și interactivitate.
 
 ---
 
