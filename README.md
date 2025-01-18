@@ -50,8 +50,7 @@ Proiectul este dezvoltat folosind:
 ---
 ##  Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="![WhatsApp Image 2025-01-18 at 11 14 49_f35d9eac](https://github.com/user-attachments/assets/b30f6861-12cb-4a33-a08b-1a1329ee6a29)
-" alt="Image 1" style="width: 30%; margin-bottom: 10px;">
+  <img src="" alt="Image 1" style="width: 30%; margin-bottom: 10px;">
   <img src="path/to/image2.jpg" alt="Image 2" style="width: 30%; margin-bottom: 10px;">
   <img src="path/to/image3.jpg" alt="Image 3" style="width: 30%; margin-bottom: 10px;">
   
