@@ -1,81 +1,90 @@
-# 🌌 Sistemul Solar - Proiect de Atestat Informatică 2024
+# 🌌 Solar System – Computer Science Certification Project (2024)
 
-## 📖 Introducere
-Acest proiect explorează sistemul solar, un sistem planetar fascinant situat în brațul Orion al Căii Lactee. Soarele, aflat în centrul acestui univers în miniatură, atrage în jurul său opt planete majore, sateliți naturali, asteroizi, comete și alte corpuri cerești, toate legate prin forța gravitațională.
+## 📖 Introduction
 
-Scopul proiectului este de a prezenta complexitatea și frumusețea sistemului solar într-un mod interactiv și captivant, promovând înțelegerea și interesul pentru astronomie.
+This project explores the Solar System, a fascinating planetary system located in the **Orion Arm of the Milky Way galaxy**. At its center lies the **Sun**, around which orbit eight major planets, natural satellites, asteroids, comets and other celestial bodies, all bound together by gravitational forces.
 
----
-
-## 🎯 Scopul Proiectului
-- Oferirea unei prezentări detaliate a componentelor sistemului solar.
-- Promovarea curiozității pentru știință și univers.
-- Crearea unei experiențe interactive prin vizualizări 3D și activități educative.
+The goal of the project is to present the complexity and beauty of the Solar System in an **interactive and engaging way**, encouraging curiosity and interest in astronomy.
 
 ---
 
-## 👨‍🏫 Cui i se adresează?
-Acest proiect este destinat:
-- **Elevilor**: Curioși să descopere minunile astronomiei.
-- **Profesorilor**: Resursă didactică pentru integrarea conceptelor astronomice în orele de curs.
+## 🎯 Project Goal
+
+- Provide an informative presentation of the Solar System and its components.
+- Encourage curiosity and interest in science and space exploration.
+- Create an interactive educational experience using visualizations and activities.
 
 ---
 
-## 🛠 Modul de Realizare
-Proiectul este dezvoltat folosind:
-- **HTML**: Structurarea paginii.
-- **CSS**: Stilizare și design modern.
-- **JavaScript**: Funcționalități interactive și dinamice.
+## 👨‍🏫 Target Audience
 
-### 📑 Funcționalități
-- **Schelet HTML**: Titluri, paragrafe, imagini, liste și linkuri pentru organizarea informației.
-- **CSS**:
-  - Fundaluri colorate și imagini tematice.
-  - Animații și tranziții pentru o experiență vizuală atractivă.
-  - Stiluri personalizate pentru texte și linkuri.
-- **JavaScript**:
-  - Vizualizare 3D interactivă a sistemului solar.
-  - Quiz educativ pentru testarea cunoștințelor.
+This project is designed for:
+
+- **Students** interested in discovering astronomy and space science.
+- **Teachers** who want an interactive educational resource for classroom activities.
 
 ---
 
-## 🌟 Conținut
-- **Prezentarea planetelor**: Caracteristici fizice, atmosferice și orbitale.
-- **Istoria explorării spațiale**: Misiuni celebre precum Apollo 11, Mars Pathfinder și Sputnik 1.
-- **Originea și evoluția sistemului solar**: Teorii și modele explicative.
-- **Interactivitate**:
-  - Hartă 3D a sistemului solar.
-  - Quiz planetar pentru consolidarea cunoștințelor.
+## 🛠 Implementation
 
----
-##  Screenshots
+The project was developed using:
 
-![photo-collage png (2)](https://github.com/user-attachments/assets/8b055218-1121-45df-9cb9-8fee71bd4515)
+- **HTML** – page structure
+- **CSS** – styling and visual design
+- **JavaScript** – interactive features and dynamic elements
 
-![photo-collage png (1)](https://github.com/user-attachments/assets/9f00617a-2785-48cf-84de-51167b35d5b9)
+### 📑 Features
 
-![photo-collage png](https://github.com/user-attachments/assets/5b0305d9-73a0-4534-bf7f-baa3ec890323)
+**HTML**
+- Structured content using headings, paragraphs, images, lists and links.
 
-</div>
+**CSS**
+- Thematic backgrounds and visual styling
+- Animations and transitions
+- Custom text and layout styling
 
-
----
-## 🚀 Experiență Interactivă
-- **Explorați sistemul solar**: Vizualizare interactivă a configurației planetare.
-- **Învățați prin joacă**: Testați-vă cunoștințele cu un quiz planetar captivant.
+**JavaScript**
+- Interactive **3D visualization of the Solar System**
+- Educational **quiz** for testing knowledge
 
 ---
 
-## 🎨 Design și Tehnologie
-- **HTML**: Structură clară și organizată.
-- **CSS**: Culori tematice și animații atractive.
-- **JavaScript**: Dinamism și interactivitate.
+## 🌟 Content
+
+The website includes:
+
+- **Planet descriptions** – physical characteristics, atmospheres and orbital information
+- **History of space exploration** – missions such as *Apollo 11*, *Mars Pathfinder* and *Sputnik 1*
+- **Origin and evolution of the Solar System** – scientific theories and models
+- **Interactive elements**
+  - 3D Solar System visualization
+  - Planetary quiz
 
 ---
 
-## 📜 Licență
-Acest proiect este realizat în cadrul **proiectului de atestat la informatică, 2024** și poate fi utilizat în scopuri educaționale.
+## 📸 Screenshots
+
+![Solar System Screenshot](https://github.com/user-attachments/assets/8b055218-1121-45df-9cb9-8fee71bd4515)
+
+![Solar System Screenshot](https://github.com/user-attachments/assets/9f00617a-2785-48cf-84de-51167b35d5b9)
+
+![Solar System Screenshot](https://github.com/user-attachments/assets/5b0305d9-73a0-4534-bf7f-baa3ec890323)
 
 ---
 
-🌟 **Explorați universul și descoperiți minunile sistemului solar!** 🚀
+## 🚀 Interactive Experience
+
+- **Explore the Solar System** through an interactive planetary visualization.
+- **Learn through play** by completing the astronomy quiz.
+
+---
+
+## 🎨 Design & Technologies
+
+- **HTML** – page structure
+- **CSS** – visual design and animations
+- **JavaScript** – dynamic interactions and educational features
+
+--- 
+
+🚀 *Explore the universe and discover the wonders of the Solar System!*
