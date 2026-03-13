@@ -1,6 +1,6 @@
-# 🌌 Solar System – Computer Science Certification Project (2024)
+# 🌌 Solar System - WEB page -
 
-## 📖 Introduction
+##  Introduction
 
 This project explores the Solar System, a fascinating planetary system located in the **Orion Arm of the Milky Way galaxy**. At its center lies the **Sun**, around which orbit eight major planets, natural satellites, asteroids, comets and other celestial bodies, all bound together by gravitational forces.
 
@@ -8,24 +8,7 @@ The goal of the project is to present the complexity and beauty of the Solar Sys
 
 ---
 
-## 🎯 Project Goal
-
-- Provide an informative presentation of the Solar System and its components.
-- Encourage curiosity and interest in science and space exploration.
-- Create an interactive educational experience using visualizations and activities.
-
----
-
-## 👨‍🏫 Target Audience
-
-This project is designed for:
-
-- **Students** interested in discovering astronomy and space science.
-- **Teachers** who want an interactive educational resource for classroom activities.
-
----
-
-## 🛠 Implementation
+##  .✦ ݁˖ Implementation .✦ ݁˖
 
 The project was developed using:
 
@@ -33,23 +16,8 @@ The project was developed using:
 - **CSS** – styling and visual design
 - **JavaScript** – interactive features and dynamic elements
 
-### 📑 Features
 
-**HTML**
-- Structured content using headings, paragraphs, images, lists and links.
-
-**CSS**
-- Thematic backgrounds and visual styling
-- Animations and transitions
-- Custom text and layout styling
-
-**JavaScript**
-- Interactive **3D visualization of the Solar System**
-- Educational **quiz** for testing knowledge
-
----
-
-## 🌟 Content
+## 🌟 Content 🌟
 
 The website includes:
 
@@ -62,7 +30,7 @@ The website includes:
 
 ---
 
-## 📸 Screenshots
+## 🌸 Screenshots 🌸
 
 ![Solar System Screenshot](https://github.com/user-attachments/assets/8b055218-1121-45df-9cb9-8fee71bd4515)
 
@@ -72,19 +40,7 @@ The website includes:
 
 ---
 
-## 🚀 Interactive Experience
-
-- **Explore the Solar System** through an interactive planetary visualization.
-- **Learn through play** by completing the astronomy quiz.
-
 ---
 
-## 🎨 Design & Technologies
-
-- **HTML** – page structure
-- **CSS** – visual design and animations
-- **JavaScript** – dynamic interactions and educational features
-
---- 
 
 🚀 *Explore the universe and discover the wonders of the Solar System!*
